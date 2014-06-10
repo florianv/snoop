@@ -1,0 +1,39 @@
+{
+    "name": "florianv/snoop",
+    "type": "library",
+    "description": "Find informations about an email address owner",
+    "keywords": ["contact", "information", "profile", "email", "social"],
+    "homepage": "https://github.com/florianv/snoop",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian Voutzinos",
+            "email": "florian@voutzinos.com",
+            "homepage": "http://florian.voutzinos.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Snoop": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "Snoop\\Tests": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7",
+        "guzzle/guzzle": "~3.0"
+    },
+    "suggest": {
+        "guzzle/guzzle": "If you want to use the Guzzle3Adapter",
+        "guzzlehttp/guzzle": "If you want to use the Guzzle4Adapter"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

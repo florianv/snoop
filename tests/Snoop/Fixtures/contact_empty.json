@@ -1,0 +1,18 @@
+{
+    "contact": {
+        "first_name": "",
+        "last_name": "",
+        "location": null,
+        "headline": "",
+        "images": [
+            {
+                "url": "https:\/\/secure.gravatar.com\/avatar\/70da67c0af4372c12c3ccbe97aad978e?s=80&d=404",
+                "service": null,
+                "url_proxied": "https:\/\/rapportive-proxy.heroku.com\/proxy?url=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F70da67c0af4372c12c3ccbe97aad978e%3Fs%3D80%26d%3D404"
+            }
+        ],
+        "phones": [],
+        "occupations": [],
+        "memberships": []
+    }
+}
