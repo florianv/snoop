@@ -1,4 +1,4 @@
-# Snoop [![Build status][travis-image]][travis-url] [![License][license-image]][license-url]
+# Snoop [![Build status][travis-image]][travis-url] [![Insight][insight-image]][insight-url] [![License][license-image]][license-url]
 
 Snoop finds informations about an email address owner such as its name, social profiles, images and jobs.
 
@@ -112,6 +112,9 @@ try {
 
 [license-url]: https://packagist.org/packages/florianv/snoop
 [license-image]: http://img.shields.io/packagist/l/florianv/snoop.svg
+
+[insight-url]: https://insight.sensiolabs.com/projects/ba912250-8377-4164-b594-c3fff4747b73
+[insight-image]: https://insight.sensiolabs.com/projects/ba912250-8377-4164-b594-c3fff4747b73/mini.png
 
 [version-url]: https://packagist.org/packages/florianv/snoop
 [version-image]: http://img.shields.io/packagist/v/florianv/snoop.svg
