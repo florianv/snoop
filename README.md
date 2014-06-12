@@ -23,6 +23,8 @@ Add this line to your `composer.json` file:
 
 ## Usage
 
+> You can find a simple example using it [here](https://gist.github.com/florianv/ba3f2e46065543194a2b)
+
 First, you need to create an adapter:
 
 ```php
