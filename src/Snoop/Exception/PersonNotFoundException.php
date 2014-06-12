@@ -12,7 +12,7 @@
 namespace Snoop\Exception;
 
 /**
- * Exception thrown by {@link Snoop\SnoopInterface} when
+ * Exception thrown by {@link Snoop\SnoopInterface} when there is no data associated with the email.
  *
  * @author Florian Voutzinos <florian@voutzinos.com>
  */
