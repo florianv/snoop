@@ -9,13 +9,11 @@ Add this line to your `composer.json` file:
 ```json
 {
     "require": {
-        "florianv/snoop": "dev-master"
+        "florianv/snoop": "~1.0"
     }
 }
 ```
 
-> Change `dev-master` to the appropriate version.
->
 > Currently Guzzle 3 and 4 are supported HTTP clients, so you will need to require one of them:
 >
 > - `"guzzle/guzzle": "~3.0"`
