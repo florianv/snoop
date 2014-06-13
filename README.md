@@ -1,4 +1,4 @@
-# Snoop [![Build status][travis-image]][travis-url] [![Insight][insight-image]][insight-url] [![License][license-image]][license-url]
+# Snoop [![Build status][travis-image]][travis-url] [![Insight][insight-image]][insight-url] [![Version][version-image]][version-url] [![License][license-image]][license-url]
 
 Snoop finds informations about an email address owner such as its name, social profiles, images and jobs.
 
