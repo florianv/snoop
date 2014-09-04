@@ -38,9 +38,7 @@ class Guzzle4AdapterTest extends \PHPUnit_Framework_TestCase
             ->method('setHeaders')
             ->with($headers);
 
-        $response = $this->getMockBuilder('GuzzleHttp\Message\ResponseInterface')
-            ->disableOriginalConstructor()
-            ->getMock();
+        $response = $this->getMock('GuzzleHttp\Message\ResponseInterface');
 
         $response
             ->expects($this->once())
@@ -80,9 +78,7 @@ class Guzzle4AdapterTest extends \PHPUnit_Framework_TestCase
             ->method('setHeaders')
             ->with(array());
 
-        $response = $this->getMockBuilder('GuzzleHttp\Message\ResponseInterface')
-            ->disableOriginalConstructor()
-            ->getMock();
+        $response = $this->getMock('GuzzleHttp\Message\ResponseInterface');
 
         $response
             ->expects($this->once())
@@ -95,7 +91,7 @@ class Guzzle4AdapterTest extends \PHPUnit_Framework_TestCase
             ->will($this->returnValue($bodyArray));
 
         $exception = $this->getMockBuilder('GuzzleHttp\Exception\BadResponseException')
-            ->disableOriginalConstructor()
+            ->setConstructorArgs(array('', $request))
             ->getMock();
 
         $exception

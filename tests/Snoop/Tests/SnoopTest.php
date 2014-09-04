@@ -191,7 +191,7 @@ class SnoopTest extends \PHPUnit_Framework_TestCase
         $bodyArray = json_decode(file_get_contents(__DIR__.'/../Fixtures/contact_missing_token.json'), true);
 
         $invalidResponseException = $this->getMockBuilder('Snoop\Exception\InvalidResponseException')
-            ->disableOriginalConstructor()
+            ->setConstructorArgs(array('', 403, $bodyArray))
             ->getMock();
 
         $invalidResponseException

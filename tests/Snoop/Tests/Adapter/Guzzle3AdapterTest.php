@@ -32,7 +32,7 @@ class Guzzle3AdapterTest extends \PHPUnit_Framework_TestCase
             ->with($headers);
 
         $response = $this->getMockBuilder('Guzzle\Http\Message\Response')
-            ->disableOriginalConstructor()
+            ->setConstructorArgs(array(200))
             ->getMock();
 
         $response
@@ -74,7 +74,7 @@ class Guzzle3AdapterTest extends \PHPUnit_Framework_TestCase
             ->with(array());
 
         $response = $this->getMockBuilder('Guzzle\Http\Message\Response')
-            ->disableOriginalConstructor()
+            ->setConstructorArgs(array(200))
             ->getMock();
 
         $response
