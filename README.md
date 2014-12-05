@@ -1,5 +1,7 @@
 # Snoop [![Build status][travis-image]][travis-url] [![Version][version-image]][version-url] [![License][license-image]][license-url]
 
+**:warning: This tool is currently broken as Rapportive recently changed their API so the trick is not available anymore.**
+
 Snoop finds informations about an email address owner such as its name, social profiles, images and jobs.
 
 ## Installation
